@@ -3,10 +3,17 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --configuration=ka",
+    "start:en": "ng serve --configuration=en",
+    "start:hy": "ng serve --configuration=hy",
+    "start:ru": "ng serve --configuration=ru",
+    "start:tr": "ng serve --configuration=tr",
+    "start:de": "ng serve --configuration=de",
+    "start:uk": "ng serve --configuration=uk",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "extract-i18n": "ng extract-i18n"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +33,7 @@
     "@angular-devkit/build-angular": "^16.0.6",
     "@angular/cli": "~16.0.6",
     "@angular/compiler-cli": "^16.0.0",
+    "@angular/localize": "^16.2.12",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",

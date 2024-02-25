@@ -1,0 +1,20 @@
+{
+  "locale": "tr",
+  "translations": {
+    "title": "Angular - Uluslararasılaştırma ve Yerelleştirme",
+    "internationalization-term": "Uluslararasılaştırma, yaygın olarak i18n olarak adlandırılır ve projenizin dünya genelinde farklı yerlerde kullanılabilir hale getirilmesi sürecidir.",
+    "localization-term": "Yerelleştirme, projenizin farklı yerel ayarlar için sürümlerinin oluşturulma sürecidir. Yerelleştirme süreci şu aşamaları içerir:",
+    "localication-action1": "Metni farklı dillere çevirme;",
+    "localization-action2": "Belirli bir yerel için verileri biçimlendirme;",
+    "localization-format-term": "Yerel, insanların belirli bir dil veya dil varyantında konuştuğu bölgeyi belirler. Olası bölgeler arasında ülkeler ve coğrafi bölgeler bulunur. Yerel, aşağıdaki ayrıntıların biçimlendirilmesini ve analizini belirler.",
+    "locatization-format1": "Tarih ve saat, sayılar ve para birimi dahil ölçü birimleri;",
+    "localization-format2": "Saat dilimleri, diller ve ülkeler dahil çevrilmiş isimler;",
+    "i18n-command": "@angular/localize paketini eklemek için, projenizdeki package.json ve TypeScript konfigürasyon dosyalarını güncellemek için şu komutu kullanın.",
+    "extract-i18n-actions": "Çeviri için Kaynak Dil Dosyasını Çıkartma",
+    "extract-i18n-steps": "Kaynak dil dosyasını çıkarmak için aşağıdaki adımları izleyin.",
+    "extract-i18n-step1": "Terminal'i açın.",
+    "extract-i18n-step2": "Projeye ait kök dizini değiştirin.",
+    "extract-i18n-step3": "Aşağıdaki CLI komutunu çalıştırın.",
+    "extract-i18n-json": "Ayrıca, src/locale dizininde dosya oluşturmak için bu seçenekte belirtilen yolu kullanın."
+  }
+}

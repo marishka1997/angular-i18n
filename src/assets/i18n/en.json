@@ -1,0 +1,20 @@
+{
+  "locale": "en",
+  "translations": {
+    "title": "Angular - Internationalization and localization",
+    "internationalization-term": "Internationalization, sometimes referenced as i18n, is the process of designing and preparing your project for use in different locales around the world.",
+    "localization-term": "Localization is the process of building versions of your project for different locales. The localization process includes the following actions.",
+    "localication-action1": "Extract text for translation into different languages;",
+    "localization-action2": "Format data for a specific locale;",
+    "localization-format-term": "A locale identifies a region in which people speak a particular language or language variant. Possible regions include countries and geographical regions. A locale determines the formatting and parsing of the following details.",
+    "locatization-format1": "Measurement units including date and time, numbers, and currencies;",
+    "localization-format2": "Translated names including time zones, languages, and countries;",
+    "i18n-command": "To add the @angular/localize package, use the following command to update the package.json and TypeScript configuration files in your project.",
+    "extract-i18n-actions": "Extract the source language file",
+    "extract-i18n-steps": "To extract the source language file, complete the following actions.",
+    "extract-i18n-step1": "Open a Terminal window.",
+    "extract-i18n-step2": "Change to the root directory of your project.",
+    "extract-i18n-step3": "Run the following CLI command.",
+    "extract-i18n-json": "To create a file in the src/locale directory, specify the output path as an option."
+  }
+}
